@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Bebeto Nyamwamu",
-  title: "Hey 👋🏻, I'm Bebeto",
+  title: "Hello 👋🏿, I'm Bebeto",
   subTitle: emoji(
-    "A zealous Machine Learning Engineer/Data Scientist 🚀 specialising in Python for AI, Data Science and Backend and Node for Backend. I am passionate about building ML apps using the Python AI library and Node Backend ecosystems."
+    "Machine Learning Engineer/Data Scientist 🧑🏿‍💻 specialising in Python for AI, Data Science for most part and Backend and Node for Backend once in a while. I am passionate about building ML apps using the Python AI library ecosystems."
   ),
   resumeLink:
     "https://drive.google.com/file/d/17tVcgsONrVsCQCJ0w65BdNPPVI9waoch/view?usp=sharing", // Set to empty to hide the button
@@ -153,6 +153,10 @@ const techStack = {
     },
     {
       Stack: "Docker",
+      progressPercentage: "79%"
+    },
+    {
+      Stack: "Spark with pySpark",
       progressPercentage: "79%"
     },
     {
