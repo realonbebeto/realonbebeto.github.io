@@ -181,6 +181,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Data Scientist",
+      company: "benshi.ai",
+      companylogo: require("./assets/images/benshi.png"),
+      date: "March 2022 – Ongoing",
+      desc: "Data Processing, Behaviour Analysis and Modelling for Healthcare Delivery Optimization",
+      descBullets: [
+        "Tech Stach: Python, Azure Databricks, pySpark, Lifelines, Matplotlib, Seaborn",
+        "Data Processing Pipelines using pySpark for healthcare delivery optimization",
+        "Cleaning, Feature Engineering, and Analysis of partners' data using pySpark, Azure Databricks, seaborn, matplotlib",
+        "Time Series, Survival Analysis, and Modelling to understand and predict user churn and time to associated events using pySurvival and Lifelines"
+      ]
+    },
+    {
       role: "Data Science Associate",
       company: "Ajua",
       companylogo: require("./assets/images/Ajua.png"),
