@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86beabfcc448efb2e5a4d86d9916a5ee",
+    "revision": "24cbecbc0061e8271e94227a4e909eed",
     "url": "/index.html"
   },
   {
-    "revision": "c821cd093686c720fada",
+    "revision": "42056d702bb98c1a1383",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "59565449f8e4f281880e",
+    "revision": "423a98874c032eacd4b2",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "5aaae8c2b79d0a66bf61",
+    "revision": "e2b4f9ac34b12e822c43",
     "url": "/static/css/main.66262938.chunk.css"
   },
   {
-    "revision": "289532fcbd8be6f56135",
-    "url": "/static/js/2.ef474df5.chunk.js"
+    "revision": "d0d848356a00e7da0445",
+    "url": "/static/js/2.705320c6.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.ef474df5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.705320c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c821cd093686c720fada",
-    "url": "/static/js/3.0edc8867.chunk.js"
+    "revision": "42056d702bb98c1a1383",
+    "url": "/static/js/3.d5767d87.chunk.js"
   },
   {
-    "revision": "59565449f8e4f281880e",
-    "url": "/static/js/4.e621a078.chunk.js"
+    "revision": "423a98874c032eacd4b2",
+    "url": "/static/js/4.901827fe.chunk.js"
   },
   {
-    "revision": "5aaae8c2b79d0a66bf61",
-    "url": "/static/js/main.40af25c4.chunk.js"
+    "revision": "e2b4f9ac34b12e822c43",
+    "url": "/static/js/main.2058176a.chunk.js"
   },
   {
-    "revision": "84f6fb2d9dd8b2889f24",
-    "url": "/static/js/runtime-main.ed4966c5.js"
+    "revision": "2b5c0ff0878543048b53",
+    "url": "/static/js/runtime-main.43e16b52.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "8425aea81cafef92e5bd93faf8bc7694",
+    "url": "/static/media/benshi.8425aea8.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
