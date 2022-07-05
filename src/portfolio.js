@@ -17,7 +17,7 @@ const greeting = {
     "Machine Learning Engineer/Data Scientist 🧑🏿‍💻 specialising in Python for AI, Data Science for most part and Node for Backend once in a while. I am passionate about building ML apps using the Python AI library ecosystems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17tVcgsONrVsCQCJ0w65BdNPPVI9waoch/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nB-zB9QhD1j4U46KoJYrHq2gKM80xPUn/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
