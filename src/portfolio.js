@@ -160,7 +160,7 @@ const techStack = {
       progressPercentage: "79%"
     },
     {
-      Stack: "Databricks",
+      Stack: "Azure Databricks",
       progressPercentage: "70%"
     },
     {
@@ -170,6 +170,10 @@ const techStack = {
     {
       Stack: "AWS",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "git",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -184,23 +188,23 @@ const workExperiences = {
       role: "Data Scientist",
       company: "benshi.ai",
       companylogo: require("./assets/images/benshi.png"),
-      date: "March 2022 – Ongoing",
+      date: "March 2022 – July 2022",
       desc: "Data Processing, Behaviour Analysis and Modelling for Healthcare Delivery Optimization",
       descBullets: [
-        "Tech Stach: Python, Azure Databricks, pySpark, Lifelines, Matplotlib, Seaborn",
+        "Tech Stack & Skills: Python, Azure Databricks, pySpark, Lifelines, Matplotlib, Seaborn, SQL",
         "Data Processing Pipelines using pySpark for healthcare delivery optimization",
         "Cleaning, Feature Engineering, and Analysis of partners' data using pySpark, Azure Databricks, seaborn, matplotlib",
         "Time Series, Survival Analysis, and Modelling to understand and predict user churn and time to associated events using pySurvival and Lifelines"
       ]
     },
     {
-      role: "Data Science Associate",
+      role: "Data Scientist",
       company: "Ajua",
       companylogo: require("./assets/images/Ajua.png"),
       date: "Aug 2021 – Ongoing",
       desc: "Reporting, Data Preprocessing, Model Training and Deployment",
       descBullets: [
-        "Tech Stach: Python, Tensorflow, Numpy, Matplotlib, SpaCy, GLOVE(NLP), Excel",
+        "Tech Stack & Skills: Python, Tensorflow, Numpy, Matplotlib, SpaCy, GLOVE(NLP), fastText, Excel",
         "Data Analysis and Report writing using Excel for various clients",
         "Development of survey questions for benchmark data collection",
         "Exploration of NLP technologies like spaCy, GLOVE for use",
@@ -215,7 +219,7 @@ const workExperiences = {
       date: "Nov 2021 – Jan 2022",
       desc: "Developing an AI Model to Identify School Locations in Sudan from Satellite Imagery",
       descBullets: [
-        "Tech Stach: Python, Tensorflow, Numpy, Matplotlib",
+        "Tech Stack & Skills: Python, Tensorflow, Numpy, Matplotlib",
         "Learnt proper computer vision data annotation",
         "Collaborated to build YOLO and Faster RCNN models for school detection"
       ]
@@ -227,7 +231,7 @@ const workExperiences = {
       date: "June 2021 – August 2021",
       desc: "Using Satellite Imagery to Detect and Assess the Damage of Armyworms in Farming",
       descBullets: [
-        "Tech Stach: Python, Tensorflow, Numpy, Geopandas, Matplotlib",
+        "Tech Stack & Skills: Python, Tensorflow, Numpy, Geopandas, Matplotlib",
         "Built a Resnet-50 model to predict the area affected by Armyworm pest and classify level of infestation",
         "Accuracy of over 90% and RMSE of 0.36"
       ]
@@ -239,7 +243,7 @@ const workExperiences = {
       date: "October 2016",
       desc: "Collected and Cleaned Data",
       descBullets: [
-        "Tech Stach: Excel, Python",
+        "Tech Stack & Skills: Excel, Python",
         "Managed the task of collecting, cleaning and organizing data from online sources for Biofoods, hotels and restaurants."
       ]
     }
