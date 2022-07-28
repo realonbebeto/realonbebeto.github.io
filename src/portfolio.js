@@ -191,7 +191,7 @@ const workExperiences = {
       date: "March 2022 – July 2022",
       desc: "Data Processing, Behaviour Analysis and Modelling for Healthcare Delivery Optimization",
       descBullets: [
-        "Tech Stack & Skills: Python, Azure Databricks, pySpark, Lifelines, Matplotlib, Seaborn, SQL",
+        "Tech Stack & Skills: Python, Azure Databricks, pySpark, Lifelines, MLfLow, Matplotlib, Seaborn, SQL",
         "Data Processing Pipelines using pySpark for healthcare delivery optimization",
         "Cleaning, Feature Engineering, and Analysis of partners' data using pySpark, Azure Databricks, seaborn, matplotlib",
         "Time Series, Survival Analysis, and Modelling to understand and predict user churn and time to associated events using pySurvival and Lifelines"
@@ -368,6 +368,12 @@ const blogSection = {
       title: "Supervised Machine Learning for Damage Assessment in Agriculture",
       description:
         "Developing a Supervised Machine Learning prediction model to tackle farm pest challenges in agriculture. Including a personal story on overcoming impostor syndrome while working with Omdena AI changemakers from around the world."
+    },
+    {
+      url: "https://www.linkedin.com/pulse/what-ajua-doing-comments-customer-feedback-opportunities-exist-/",
+      title: "What Ajua Does with Comments in Customer Feedback",
+      description:
+        "What is Ajua Doing with Comments in an NLP way in Customer Feedback and Opportunities that Exist for a Business"
     }
   ],
   display: true // Set false to hide this section, defaults to true
