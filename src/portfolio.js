@@ -14,10 +14,10 @@ const greeting = {
   username: "Bebeto Nyamwamu",
   title: "Hello 👋🏿, I'm Bebeto",
   subTitle: emoji(
-    "Machine Learning Engineer/Data Scientist 🧑🏿‍💻 specialising in Python for AI, Data Science for most part and Node for Backend once in a while. I am passionate about building ML apps using the Python AI library ecosystems."
+    "Machine Learning Engineer/Data Scientist 🧑🏿‍💻 experienced and specialising in building and deploying ML apps. I am agile in using the Python AI & Data Science library ecosystem for most part and MLOps."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1kjKZzlhuF3OCTagFJqakoBu_l_XVRCs8/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1SBKqKIJeUoof7U_Rif7G14qYeOFclLdu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
