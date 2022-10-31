@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Bebeto Nyamwamu",
-  title: "Hello 👋🏿, I'm Bebeto",
+  title: "Hello 👋🏿, I'm Nyamwamu",
   subTitle: emoji(
-    "Machine Learning Engineer/Data Scientist 🧑🏿‍💻 experienced and specialising in building and deploying ML apps. I am agile in using the Python AI & Data Science library ecosystem for most part and MLOps."
+    "Machine Learning Engineer/Data Science Engineer 🧑🏿‍💻 experienced and specialising in building and deploying ML apps. I am agile in using the Python AI & Data Science library ecosystem for most part and MLOps."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1SBKqKIJeUoof7U_Rif7G14qYeOFclLdu/view?usp=sharing", // Set to empty to hide the button
@@ -79,12 +79,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-github-square"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "GCP",
+      fontAwesomeClassname: "fab fa-google"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -172,7 +172,23 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
+      Stack: "GCP",
+      progressPercentage: "50%"
+    },
+    {
       Stack: "git",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "MLFlow",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Prefect Orchestrator",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Optuna Optimizer",
       progressPercentage: "70%"
     }
   ],
