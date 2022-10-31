@@ -17,7 +17,7 @@ const greeting = {
     "Machine Learning Engineer/Data Science Engineer 🧑🏿‍💻 experienced and specialising in building and deploying ML apps. I am agile in using the Python AI & Data Science library ecosystem for most part and MLOps."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1SBKqKIJeUoof7U_Rif7G14qYeOFclLdu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1pxVao6OKCBfyikvDol-F0nvwWaEFZHis/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
