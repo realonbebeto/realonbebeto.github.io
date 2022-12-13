@@ -36,15 +36,16 @@ input {
   transition: 0.4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: $toggleCheck;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: $toggleCheck;
 }
 
-input:checked + .slider::before {
+input:checked+.slider::before,
+input:checked+.slider>.emoji {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -53,10 +54,14 @@ input:checked + .slider::before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
+  display: flex;
+  align-items: center;
 }
 
 .slider.round::before {
   border-radius: 50%;
+  display: grid;
+  place-items: center;
 }
 
 .slider::after {
@@ -66,18 +71,26 @@ input:checked + .slider::before {
   bottom: 17.5%;
 }
 
-input:checked + .slider::after {
+input:checked+.slider::after {
   display: inline;
   position: absolute;
   right: 56.3%;
   bottom: 14.5%;
 }
 
+.emoji {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
 @media all and (max-width: 786px) and (min-width: 425px) {
-  input:checked + .slider::after {
+  input:checked+.slider::after {
     right: 60.3%;
     bottom: 20.5%;
   }
+
   .slider::after {
     right: 15.3%;
     bottom: 22.5%;

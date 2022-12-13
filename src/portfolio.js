@@ -3,7 +3,15 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
 // Summary And Greeting Section
 
 const illustration = {
@@ -12,9 +20,9 @@ const illustration = {
 
 const greeting = {
   username: "Bebeto Nyamwamu",
-  title: "Hello 👋🏿, I'm Nyamwamu",
+  title: "Hello 👋🏿, I'm Bebeto Nyamwamu",
   subTitle: emoji(
-    "Machine Learning Engineer/Data Science Engineer 🧑🏿‍💻 experienced and specialising in building and deploying ML apps. I am agile in using the Python AI & Data Science library ecosystem for most part and MLOps."
+    "ML/Data Science Engineer 🧑🏿‍💻 experienced in building, testing, deploying, and monitoring data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1pxVao6OKCBfyikvDol-F0nvwWaEFZHis/view?usp=share_link", // Set to empty to hide the button
@@ -39,11 +47,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY and CURIOUS ML Engineer WHO WANTS TO EXPLORE ML TECH STACKS",
+  subTitle:
+    "Progressive ML/Data Science Engineer creates using MLOps and DataOps tech stacks",
   skills: [
-    emoji("⚡ Perform Exploratory Data Analysis and Feature Engineering"),
-    emoji("⚡ Train, Develop and Test Machine Learning Models"),
-    emoji("⚡ Deploy Models as Progressive Applications")
+    emoji(
+      "⚡ Build, Test, Deploy, Monitor and Maintain Models as Applications"
+    ),
+    emoji("⚡ Design, Build and Deploy Datawarehouse Pipelines")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -442,10 +452,13 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
   socialMediaLinks,
+  splashScreen,
   skillsSection,
   educationInfo,
   techStack,
@@ -457,5 +470,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };
