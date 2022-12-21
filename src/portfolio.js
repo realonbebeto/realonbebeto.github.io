@@ -22,10 +22,10 @@ const greeting = {
   username: "Bebeto Nyamwamu",
   title: "Hello 👋🏿, I'm Bebeto Nyamwamu",
   subTitle: emoji(
-    "ML/Data Science Engineer 🧑🏿‍💻 experienced in building, testing, deploying, and monitoring data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
+    "ML/Data Engineer 🧑🏿‍💻 experienced in building, testing, deploying, and monitoring data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1pxVao6OKCBfyikvDol-F0nvwWaEFZHis/view?usp=share_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1IuM8zhVQkd-xm7Mvf8ryWwqDUps0_hqN/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,14 +46,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "My Skills",
   subTitle:
-    "Progressive ML/Data Science Engineer creates using MLOps and DataOps tech stacks",
+    "Progressive ML/Data Engineer creates using MLOps and DataOps tech stacks",
   skills: [
     emoji(
-      "⚡ Build, Test, Deploy, Monitor and Maintain Models as Applications"
+      "⚡ Machine Learning: Building, Testing, Deploying, Monitoring and Maintaining Models as Applications"
     ),
-    emoji("⚡ Design, Build and Deploy Datawarehouse Pipelines")
+    emoji(
+      "⚡ Data Engineering: Designing, Building and Orchestration of Datawarehouse ETL & ELT Pipelines"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -170,20 +172,16 @@ const techStack = {
       progressPercentage: "79%"
     },
     {
-      Stack: "Azure Databricks",
+      Stack: "SQL",
       progressPercentage: "70%"
     },
     {
-      Stack: "SQL",
-      progressPercentage: "60%"
-    },
-    {
       Stack: "AWS",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     },
     {
       Stack: "GCP",
-      progressPercentage: "50%"
+      progressPercentage: "65%"
     },
     {
       Stack: "git",
@@ -191,14 +189,14 @@ const techStack = {
     },
     {
       Stack: "MLFlow",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "AirFlow",
+      progressPercentage: "60%"
     },
     {
       Stack: "Prefect Orchestrator",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Optuna Optimizer",
       progressPercentage: "70%"
     }
   ],
@@ -212,6 +210,21 @@ const workExperiences = {
   experience: [
     {
       role: "Data Scientist",
+      company: "Ajua",
+      companylogo: require("./assets/images/Ajua.png"),
+      date: "Aug 2021 – Ongoing",
+      desc: "Reporting, Data Preprocessing, Model Training and Deployment",
+      descBullets: [
+        "Tech Stack & Skills: Python, Tensorflow, Numpy, SpaCy, GLOVE(NLP), fastText, MLFlow, Prefect, Airflow, Excel",
+        "Data Analysis and customer experience reporting using Excel for various clients in banking, healthcare, insurance, FCMG, etc",
+        "Dev of surveys for benchmark analysis and reporting",
+        "Lead in dev, deployment and monitoring of Batch Inference NLP models and other machine learning pipelines on AWS and GCP",
+        "Dev, deployment and maintaining BigQuery DW pipelines on GCP",
+        "Dev, deployment of email-provisioned insights"
+      ]
+    },
+    {
+      role: "Data Scientist",
       company: "benshi.ai",
       companylogo: require("./assets/images/benshi.png"),
       date: "March 2022 – July 2022",
@@ -221,21 +234,6 @@ const workExperiences = {
         "Data Processing Pipelines using pySpark for healthcare delivery optimization",
         "Cleaning, Feature Engineering, and Analysis of partners' data using pySpark, Azure Databricks, seaborn, matplotlib",
         "Time Series, Survival Analysis, and Modelling to understand and predict user churn and time to associated events using pySurvival and Lifelines"
-      ]
-    },
-    {
-      role: "Data Scientist",
-      company: "Ajua",
-      companylogo: require("./assets/images/Ajua.png"),
-      date: "Aug 2021 – Ongoing",
-      desc: "Reporting, Data Preprocessing, Model Training and Deployment",
-      descBullets: [
-        "Tech Stack & Skills: Python, Tensorflow, Numpy, Matplotlib, SpaCy, GLOVE(NLP), fastText, Excel",
-        "Data Analysis and Report writing using Excel for various clients",
-        "Development of survey questions for benchmark data collection",
-        "Exploration of NLP technologies like spaCy, GLOVE for use",
-        "Design and development of NLP Deep learning pipeline and deployment",
-        "Playing Lead role in the technical development of machine learning pipelines"
       ]
     },
     {
@@ -270,7 +268,7 @@ const workExperiences = {
       desc: "Collected and Cleaned Data",
       descBullets: [
         "Tech Stack & Skills: Excel, Python",
-        "Managed the task of collecting, cleaning and organizing data from online sources for Biofoods, hotels and restaurants."
+        "Webscraping, cleaning and organizing data from online sources for Biofoods, hotels and restaurants."
       ]
     }
   ]
