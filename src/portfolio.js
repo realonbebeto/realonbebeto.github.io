@@ -22,10 +22,10 @@ const greeting = {
   username: "Bebeto Nyamwamu",
   title: "Hello 👋🏿, I'm Bebeto Nyamwamu",
   subTitle: emoji(
-    "ML/Data Engineer 🧑🏿‍💻 experienced in building, testing, deploying, and monitoring data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
+    "Fullstack ML/Data Engineer 🧑🏿‍💻 experienced in building, testing, deploying, and monitoring data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1IuM8zhVQkd-xm7Mvf8ryWwqDUps0_hqN/view?usp=share_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/16bMX1LNOXS-djrW0W2V_aVdlnSZLMUu4/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "My Skills",
   subTitle:
-    "Progressive ML/Data Engineer creates using MLOps and DataOps tech stacks",
+    "Progressive Fullstack ML/Data Engineer creates using MLOps and DataOps tech stacks",
   skills: [
     emoji(
       "⚡ Machine Learning: Building, Testing, Deploying, Monitoring and Maintaining Models as Applications"
@@ -209,7 +209,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Scientist",
+      role: "Data Scientist/Engineer",
       company: "Ajua",
       companylogo: require("./assets/images/Ajua.png"),
       date: "Aug 2021 – Ongoing",
