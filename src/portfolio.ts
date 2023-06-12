@@ -261,8 +261,6 @@ const educationInfo = {
   ]
 };
 
-
-
 var openSourceProjectsInfo = {
   title: "OTHER PROJECTS",
   display: true
