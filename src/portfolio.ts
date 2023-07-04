@@ -11,10 +11,10 @@ const homeInfo = {
   prefname: "Nyamwamu",
   prefTitle: "Fullstack ML/Data Engineer",
   subtitle: emoji(
-    "Fullstack ML/Data Engineer experienced in building, testing, deploying, and monitoring data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
+    "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1BHxE6zRtILJ66A4JHe15SBhwTHqF1XJK/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dmz2KwPTSBSKKZ25Hegj4i8WU8nPKH4a/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
