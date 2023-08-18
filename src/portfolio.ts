@@ -1,5 +1,5 @@
 import emoji from "react-easy-emoji";
-import {SiKubernetes, SiPostgresql, SiPython, SiJavascript, SiAmazonaws, SiGooglecloud, SiDocker, SiPandas, SiTensorflow, SiJupyter, SiFastapi, SiMlflow, SiHtml5, SiGit, SiScikitlearn, SiLooker, SiNumpy} from "react-icons/si"
+import {SiKubernetes, SiPostgresql, SiPython, SiJavascript, SiAmazonaws, SiGooglecloud, SiDocker, SiPandas, SiTensorflow, SiJupyter, SiFastapi, SiMlflow, SiHtml5, SiGit, SiScikitlearn, SiLooker, SiNumpy, SiElasticsearch} from "react-icons/si"
 import {FaCode} from "react-icons/fa"
 import {TbBrandGoogleBigQuery} from "react-icons/tb"
 import {DiSpark} from "react-icons/di"
@@ -14,7 +14,7 @@ const homeInfo = {
     "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1dmz2KwPTSBSKKZ25Hegj4i8WU8nPKH4a/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1cM8sRhxIkVTQ7Zv-gKN-lknvlYArDI_u/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -124,7 +124,7 @@ https://fontawesome.com/icons?d=gallery */
   ],
 
   others: [
-        {
+    {
       skillName: "docker",
       fontAwesomeClassname: SiDocker
     },
@@ -143,6 +143,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName:"Looker",
       fontAwesomeClassname: SiLooker
+    },
+    {
+      skillName: "Elastic Search",
+      fontAwesomeClassname: SiElasticsearch
     }
 
   ],
@@ -156,10 +160,26 @@ const workInfo = {
   display: true, //Set it to true to show workExperiences Section
   experiences: [
     {
+      role: "ML Engineer",
+      company: "Omdena",
+      // companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2023 – Ongoing",
+      desc: "Building a Fraud Detection System in Insurance",
+      stack: ["Python", "Tensorflow", "FastAPI", "AWS", "Docker", "Scikit-Learn", "Elastic Search"],
+      descBullets: [
+        "Engineered an ensemble model with Scikit Learn, XGBoost, and LightGBM with an accuracy of over 80% in fraud detection.",
+        "Engineered an alteration model with Tensorflow with an accuracy of over 70% to detect document alteration",
+        "Engineered a document similarity search using Tensorflow and Elastic search to identify already use documents in claim requests",
+        "Applied the YOLO objection detection model to detect use of stamps in documents",
+        "Collaborated cross-functionally with partner data engineer, scientist and software engineers to preprocess raw insurance data",
+        "Orchestrated models-API deployment on AWS EC2, ensuring scalability and high availability using FastAPI on docker"
+      ]
+    },
+    {
       role: "Data Scientist/Engineer",
       company: "Ajua",
       // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "Aug 2021 – Ongoing",
+      date: "Aug 2021 – August 2023",
       desc: "Reporting, Data Preprocessing, Model Training and Deployment",
       stack: ["Python", "Prefect", "GCP", "AWS" ,"k8s", "Docker", "Excel"],
       descBullets: [
@@ -228,6 +248,18 @@ const educationInfo = {
   title: "EDUCATION",
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: "Grand Valley State University",
+      // logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "MSc. in Data Science & Analytics",
+      duration: "August 2023 - Ongoing",
+      desc: "Advancing Data Science & Engineering",
+      descBullets: [
+        "High Perfomance Computing",
+        "Data Engineering",
+        "Applied Statistics"
+      ]
+    },
     {
       schoolName: "Udacity",
       // logo: require("./assets/images/harvardLogo.png"),
