@@ -29,7 +29,7 @@ const Home = () => {
           </a> */}
         </div>
         <div className="py-8 gap-4 flex justify-center xxs:py-5">
-          <a href={`mailto:${socialMediaInfo.gmail}`} className="border border-[#1DA1F2] bg-[#1DA1F2] text-white hover:bg-white hover:text-[#1DA1F2] px-5 py-2 rounded-[5px]  ease-in duration-300 xxs:px-3 xxs:py-1   xsm:px-5 xsm:py-2">CONTACT ME</a>
+          <a href={`mailto:${socialMediaInfo.calendly}`} className="border border-[#1DA1F2] bg-[#1DA1F2] text-white hover:bg-white hover:text-[#1DA1F2] px-5 py-2 rounded-[5px]  ease-in duration-300 xxs:px-3 xxs:py-1   xsm:px-5 xsm:py-2">SCHEDULE CALL</a>
           <a href={`${homeInfo.resumeLink}`} className="border border-[#1DA1F2] bg-[#1DA1F2] text-white hover:bg-white hover:text-[#1DA1F2] px-5 py-2 rounded-[5px] ease-in duration-300  xxs:px-3 xxs:py-1  xsm:px-5 xsm:py-2">VIEW RESUME</a>
         </div>
       </div>

@@ -22,6 +22,7 @@ const socialMediaInfo = {
   github: "https://github.com/realonbebeto",
   linkedin: "https://www.linkedin.com/in/realonebebeto/",
   gmail: "nberbetto@gmail.com",
+  calendly: "https://calendly.com/realonbebeto",
   gitlab: "https://gitlab.com/realonebebeto",
   twitter: "https://twitter.com/realonbebeto",
   kaggle: "https://kaggle.com/realonbebeto",
