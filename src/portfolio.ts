@@ -164,7 +164,7 @@ const workInfo = {
       role: "ML Engineer",
       company: "Omdena",
       // companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2023 – Ongoing",
+      date: "June 2023 – October 2023",
       desc: "Building a Fraud Detection System in Insurance",
       stack: ["Python", "Tensorflow", "FastAPI", "AWS", "Docker", "Scikit-Learn", "Elastic Search"],
       descBullets: [
