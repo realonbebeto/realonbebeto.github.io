@@ -1,7 +1,8 @@
 import {
   SiJupyter, SiHtml5, SiPython, SiJavascript, SiTypescript,
   SiKubernetes, SiReact, SiAmazonaws, SiGooglecloud, 
-  SiDocker
+  SiDocker, SiPrefect, SiTensorflow, SiFastapi, SiElasticsearch,
+  SiScikitlearn, SiMicrosoftexcel, SiNumpy, SiDatabricks, SiDvc
 } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 import { FaJava, FaCode } from "react-icons/fa";
@@ -38,6 +39,24 @@ export function returnIcon(language: any) {
     return FaNode
   } else if (RegExp("Docker").test(language)){
     return SiDocker
+  } else if (RegExp("Prefect").test(language)){
+    return SiPrefect
+  } else if (RegExp("Tensorflow").test(language)){
+    return SiTensorflow
+  } else if (RegExp("FastAPI").test(language)){
+    return SiFastapi
+  } else if (RegExp("Elastic Search").test(language) || RegExp("Elasticsearch").test(language) || RegExp("Elastic search").test(language)){
+    return SiElasticsearch
+  } else if (RegExp("Scikit-Learn").test(language) || RegExp("scikit learn").test(language)){
+    return SiScikitlearn
+  } else if (RegExp("Excel").test(language)){
+    return SiMicrosoftexcel
+  } else if (RegExp("Numpy").test(language) || RegExp("numpy").test(language)){
+    return SiNumpy
+  } else if (RegExp("Azure Databricks").test(language) || RegExp("Databricks").test(language)){
+    return SiDatabricks
+  } else if (RegExp("DVC").test(language)){
+    return SiDvc
   }
   else {
     return FaCode;
