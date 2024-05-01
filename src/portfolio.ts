@@ -14,7 +14,7 @@ const homeInfo = {
     "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1pNo5qSJjMBiuUoDBc0c79paOEbZAVqTw/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1uRL4T7yXFwvugA_reLyQPKC3vZyseeUg/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
