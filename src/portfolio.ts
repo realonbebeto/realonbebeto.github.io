@@ -14,7 +14,7 @@ const homeInfo = {
     "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1pNo5qSJjMBiuUoDBc0c79paOEbZAVqTw/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1uRL4T7yXFwvugA_reLyQPKC3vZyseeUg/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -160,6 +160,20 @@ const workInfo = {
   title: "EXPERIENCE",
   display: true, //Set it to true to show workExperiences Section
   experiences: [
+        {
+      role: "Data Engineer",
+      company: "Mobilyze",
+      // companylogo: require("./assets/images/facebookLogo.png"),
+      date: "September 2023 – To date",
+      desc: "Building and maintaing location scouting and profiling platform",
+      stack: ["Python", "FastAPI", "AWS", "Docker", "DVC", "BigQuery"],
+      descBullets: [
+        "Building and running scraper monitoring on AWS Lambda",
+        "Building software platform to run location evaluations using FastAPI",
+        "Implementing, maintaining features and fixing bugs on legacy DVC pipeline code",
+        "Running ad-hoc EV location evaluations"
+      ]
+    },
     {
       role: "ML Engineer",
       company: "Omdena",
