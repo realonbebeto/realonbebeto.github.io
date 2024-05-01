@@ -160,6 +160,20 @@ const workInfo = {
   title: "EXPERIENCE",
   display: true, //Set it to true to show workExperiences Section
   experiences: [
+        {
+      role: "Data Engineer",
+      company: "Mobilyze",
+      // companylogo: require("./assets/images/facebookLogo.png"),
+      date: "September 2023 – To date",
+      desc: "Building and maintaing location scouting and profiling platform",
+      stack: ["Python", "FastAPI", "AWS", "Docker", "DVC", "BigQuery"],
+      descBullets: [
+        "Building and running scraper monitoring on AWS Lambda",
+        "Building software platform to run location evaluations using FastAPI",
+        "Implementing, maintaining features and fixing bugs on legacy DVC pipeline code",
+        "Running ad-hoc EV location evaluations"
+      ]
+    },
     {
       role: "ML Engineer",
       company: "Omdena",
