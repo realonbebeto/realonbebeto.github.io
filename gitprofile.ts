@@ -12,7 +12,7 @@ const ERR = {
 };
 
 //process.env.
-if (process.env.USERNAME === undefined) {
+if (process.env.GITHUB_USERNAME === undefined) {
   throw new Error(ERR.noUserName);
 };
 
@@ -41,7 +41,7 @@ async function fetchProfileRequest(query: any) {
 
 var query = `
 {
-  user(login:"${process.env.USERNAME}") { 
+  user(login:"${process.env.GITHUB_USERNAME}") { 
     name
     bio
     isHireable
@@ -73,7 +73,7 @@ var query = `
 }
 `;
 
-console.log(`Fetching profile data for ${process.env.USERNAME}`);
+console.log(`Fetching profile data for ${process.env.GITHUB_USERNAME}`);
 
 fetchProfileRequest(query).then((response: any) => {
   var response_data = JSON.stringify(response)
