@@ -12,13 +12,13 @@ const ERR = {
 };
 
 //process.env.
-if (process.env.GITHUB_USERNAME === undefined) {
-    throw new Error(ERR.noUserName);
-  };
+if (process.env.USERNAME === undefined) {
+  throw new Error(ERR.noUserName);
+};
 
 const graphqlWithAuth = graphql.defaults({
   headers: {
-    authorization: `token ${process.env.GITHUB_TOKEN}`   //
+    authorization: `token ${process.env.PORTFOLIO_TOKEN}`   //
   },
 });
 
@@ -30,8 +30,8 @@ async function fetchProfileRequest(query: any) {
   } catch (error: any) {
     // Handle the error, such as logging or displaying a friendly message
     if (error instanceof GraphqlResponseError) {
-    console.error(`${ERR.graphqlError}: ${error.message}`);
-    throw error;
+      console.error(`${ERR.graphqlError}: ${error.message}`);
+      throw error;
     } else {
       console.error(`${ERR.requestFailed}: ${error.message}`);
       throw error
@@ -41,7 +41,7 @@ async function fetchProfileRequest(query: any) {
 
 var query = `
 {
-  user(login:"${process.env.GITHUB_USERNAME}") { 
+  user(login:"${process.env.USERNAME}") { 
     name
     bio
     isHireable
@@ -73,12 +73,12 @@ var query = `
 }
 `;
 
-console.log(`Fetching profile data for ${process.env.GITHUB_USERNAME}`);
+console.log(`Fetching profile data for ${process.env.USERNAME}`);
 
-fetchProfileRequest(query).then((response: any)=> {
+fetchProfileRequest(query).then((response: any) => {
   var response_data = JSON.stringify(response)
   fs.writeFile("./public/profile.json", response_data, 'utf8', (err: any) => {
-      if (err) return console.log(err);
-      console.log("saved file to public/profile.json");
+    if (err) return console.log(err);
+    console.log("saved file to public/profile.json");
   });
 })
