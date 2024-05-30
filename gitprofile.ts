@@ -18,7 +18,7 @@ if (process.env.GITHUB_USERNAME === undefined) {
 
 const graphqlWithAuth = graphql.defaults({
   headers: {
-    authorization: `token ${process.env.PORTFOLIO_TOKEN}`   //
+    authorization: `token ${process.env.GITHUB_TOKEN}`   //
   },
 });
 
