@@ -2,7 +2,8 @@ import {
   SiJupyter, SiHtml5, SiPython, SiJavascript, SiTypescript,
   SiKubernetes, SiReact, SiAmazonaws, SiGooglecloud, 
   SiDocker, SiPrefect, SiTensorflow, SiFastapi, SiElasticsearch,
-  SiScikitlearn, SiMicrosoftexcel, SiNumpy, SiDatabricks, SiDvc
+  SiScikitlearn, SiMicrosoftexcel, SiNumpy, SiDatabricks, SiDvc,
+  SiGooglebigquery
 } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 import { FaJava, FaCode } from "react-icons/fa";
@@ -29,7 +30,7 @@ export function returnIcon(language: any) {
     return DiSpark
   } else if (RegExp("React").test(language)){
     return SiReact
-  } else if (RegExp("Amazon").test(language)){
+  } else if (RegExp("Amazon").test(language) || RegExp("AWS").test(language)){
     return SiAmazonaws
   } else if (RegExp("k8s").test(language) || RegExp("Kubernetes").test(language)){
     return SiKubernetes
@@ -57,6 +58,8 @@ export function returnIcon(language: any) {
     return SiDatabricks
   } else if (RegExp("DVC").test(language)){
     return SiDvc
+  } else if (RegExp("BigQuery").test(language)){
+    return SiGooglebigquery
   }
   else {
     return FaCode;
