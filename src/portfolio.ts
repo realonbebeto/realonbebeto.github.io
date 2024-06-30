@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
-import {SiKubernetes, SiPostgresql, SiPython, SiJavascript, SiAmazonaws, SiGooglecloud, SiDocker, SiPandas, SiTensorflow, SiJupyter, SiFastapi, SiMlflow, SiHtml5, SiGit, SiScikitlearn, SiLooker, SiNumpy, SiElasticsearch} from "react-icons/si"
-import {FaCode} from "react-icons/fa"
-import {TbBrandGoogleBigQuery} from "react-icons/tb"
-import {DiSpark} from "react-icons/di"
+import { SiKubernetes, SiPostgresql, SiPython, SiJavascript, SiAmazonaws, SiGooglecloud, SiDocker, SiPandas, SiTensorflow, SiJupyter, SiFastapi, SiMlflow, SiHtml5, SiGit, SiScikitlearn, SiLooker, SiNumpy, SiElasticsearch } from "react-icons/si"
+import { FaCode } from "react-icons/fa"
+import { TbBrandGoogleBigQuery } from "react-icons/tb"
+import { DiSpark } from "react-icons/di"
 
 
 const homeInfo = {
@@ -14,7 +14,7 @@ const homeInfo = {
     "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1uRL4T7yXFwvugA_reLyQPKC3vZyseeUg/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kzDwrt724wm1AD4ZoFSqQSkfclu2kbwE/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,18 +54,18 @@ const skillsInfo = {
 https://fontawesome.com/icons?d=gallery */
 
   languageskills: [{
-      skillName: "Python",
-      fontAwesomeClassname: SiPython
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: SiJavascript
-    },
-    {
-      skillName: "HTML",
-      fontAwesomeClassname: SiHtml5
-    }
-],
+    skillName: "Python",
+    fontAwesomeClassname: SiPython
+  },
+  {
+    skillName: "JavaScript",
+    fontAwesomeClassname: SiJavascript
+  },
+  {
+    skillName: "HTML",
+    fontAwesomeClassname: SiHtml5
+  }
+  ],
 
   frameworkskills: [
     {
@@ -96,7 +96,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Scikit-Learn",
       fontAwesomeClassname: SiScikitlearn
     },
-    {skillName: "Prefect",
+    {
+      skillName: "Prefect",
       fontAwesomeClassname: FaCode
     },
 
@@ -118,7 +119,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "PostgreSQL",
       fontAwesomeClassname: SiPostgresql
     },
-        {
+    {
       skillName: "BigQuery",
       fontAwesomeClassname: TbBrandGoogleBigQuery
     }
@@ -142,7 +143,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: SiGit
     },
     {
-      skillName:"Looker",
+      skillName: "Looker",
       fontAwesomeClassname: SiLooker
     },
     {
@@ -160,7 +161,7 @@ const workInfo = {
   title: "EXPERIENCE",
   display: true, //Set it to true to show workExperiences Section
   experiences: [
-        {
+    {
       role: "Data Engineer",
       company: "Mobilyze",
       // companylogo: require("./assets/images/facebookLogo.png"),
@@ -196,7 +197,7 @@ const workInfo = {
       // companylogo: require("./assets/images/facebookLogo.png"),
       date: "Aug 2021 – August 2023",
       desc: "Reporting, Data Preprocessing, Model Training and Deployment",
-      stack: ["Python", "Prefect", "GCP", "AWS" ,"k8s", "Docker", "Excel"],
+      stack: ["Python", "Prefect", "GCP", "AWS", "k8s", "Docker", "Excel"],
       descBullets: [
         "Data Analysis and Report writing using Excel for over 10 clients in banking, healthcare, insurance, FCMG, etc",
         "Quarterly development of survey questions for benchmark data collection and reporting for 10 industries",
@@ -294,7 +295,7 @@ const educationInfo = {
       desc: "Learnt Python for Data Science",
       descBullets: ["Python (Numpy, Pandas), Data Wrangling, SQL, JSON, Data Structures"]
     },
-        {
+    {
       schoolName: "JKUAT University",
       // logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "BSc. in Geospatial Engineering",
@@ -327,7 +328,7 @@ const bigProjectsInfo = {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        
+
       ],
       //  Only top 3 stack skills recommended here.
       stack: ["Python", "JavaScript", "TypeScrip"]
@@ -434,4 +435,4 @@ const blogInfo = {
 };
 
 
-export {homeInfo, headLine, socialMediaInfo, skillsInfo, educationInfo, workInfo, bigProjectsInfo, openSourceProjectsInfo, achievementsInfo, blogInfo};
+export { homeInfo, headLine, socialMediaInfo, skillsInfo, educationInfo, workInfo, bigProjectsInfo, openSourceProjectsInfo, achievementsInfo, blogInfo };
