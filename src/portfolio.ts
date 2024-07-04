@@ -14,7 +14,7 @@ const homeInfo = {
     "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1kzDwrt724wm1AD4ZoFSqQSkfclu2kbwE/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1B46NPH6e8epBZpqJJr-vasp0Il4uhlyq/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -163,16 +163,16 @@ const workInfo = {
   experiences: [
     {
       role: "Data Engineer",
-      company: "Mobilyze",
+      company: "Zoniq",
       // companylogo: require("./assets/images/facebookLogo.png"),
       date: "September 2023 – To date",
       desc: "Building and maintaing location scouting and profiling platform",
       stack: ["Python", "FastAPI", "AWS", "Docker", "DVC", "BigQuery"],
       descBullets: [
-        "Building and running scraper monitoring on AWS Lambda",
-        "Building software platform to run location evaluations using FastAPI",
-        "Implementing, maintaining features and fixing bugs on legacy DVC pipeline code",
-        "Running ad-hoc EV location evaluations"
+        "Application Development: Maintaining and developing DVC - Papermill prediction utilization pipeline code",
+        "API Integration & Deployment: Building and maintaining a software platform to run location evaluations using FastAPI",
+        "Infrastructure Maintenance: Managing docker running product services on EC2",
+        "Web Scraping Monitoring: Automated monitoring solution for data scrapers on AWS Lambda, ensuring efficient data collection"
       ]
     },
     {
@@ -183,12 +183,12 @@ const workInfo = {
       desc: "Building a Fraud Detection System in Insurance",
       stack: ["Python", "Tensorflow", "FastAPI", "AWS", "Docker", "Scikit-Learn", "Elastic Search"],
       descBullets: [
-        "Engineered an ensemble model with Scikit Learn, XGBoost, and LightGBM with an accuracy of over 80% in fraud detection.",
-        "Engineered an alteration model with Tensorflow with an accuracy of over 70% to detect document alteration",
-        "Engineered a document similarity search using Tensorflow and Elastic search to identify already use documents in claim requests",
-        "Applied the YOLO objection detection model to detect use of stamps in documents",
-        "Collaborated cross-functionally with partner data engineer, scientist and software engineers to preprocess raw insurance data",
-        "Orchestrated models-API deployment on AWS EC2, ensuring scalability and high availability using FastAPI on docker"
+        "Predictive Modeling: Built ensemble model with scikit learn, XGBoost, and LightGBM achieving 80% + accuracy in fraud detection",
+        "Predictive Modeling: Developed an alteration model with Tensorflow achieving 70% + accuracy in detecting document alteration",
+        "Predictive Modeling: Built a claim document similarity search using Tensorflow and Elasticsearch to identify already used documents",
+        "Predictive Modeling: Built the YOLO objection detection model to detect the use of stamps in documents",
+        "API Integration and Deployment: Developed FastAPI API service serving as an interface for the other models",
+        "Infrastructure Maintenance: Deployed the model(s) platform on AWS EC2 via Docker"
       ]
     },
     {
@@ -199,10 +199,10 @@ const workInfo = {
       desc: "Reporting, Data Preprocessing, Model Training and Deployment",
       stack: ["Python", "Prefect", "GCP", "AWS", "k8s", "Docker", "Excel"],
       descBullets: [
-        "Data Analysis and Report writing using Excel for over 10 clients in banking, healthcare, insurance, FCMG, etc",
-        "Quarterly development of survey questions for benchmark data collection and reporting for 10 industries",
-        "Lead in the technical development of NLP pipelines and services with performance accuracies of over 80%",
-        "Data Warehousing - Batched ETL Pipelines with at least 50000 records processed every hour."
+        "Ad - hoc Analysis: Data analysis and quarterly market research applying data from the Ajua SaaS survey platform",
+        "Predictive Modeling: NLP sentiment analysis with Tensorflow, XGBoost achieving 80% + accuracy",
+        "Infrastructure Maintenance: Managing docker running models, Prefect, MLFlow on AWS’s EC2 and GCP's Compute Engine",
+        "ETL and Data Warehousing: Batched ETL pipelines on GCP's Compute Engine for BigQuery storage - Visual Analytics: Developed, deployed, and maintained BigQuery-Looker dashboards"
       ]
     },
     {
@@ -213,9 +213,9 @@ const workInfo = {
       desc: "Data Processing, Behaviour Analysis and Modelling for Healthcare Delivery Optimization",
       stack: ["Spark", "pySurvival", "Azure Databricks"],
       descBullets: [
-        "Data Processing Pipelines using pySpark for healthcare delivery optimization",
-        "Cleaning, Feature Engineering, and Analysis of partners' data using pySpark, Azure Databricks, seaborn, matplotlib, plotly",
-        "Time Series, Survival Analysis, and Modelling to understand and predict user churn and time to associated events using pySurvival and Lifelines with over at least 60% model accuracies"
+        "Analytics Transformation: pySpark pipelines for behavior analysis in healthcare delivery optimization, processing millions of logs",
+        "Feature Engineering & Analytics: Generated new features, and analyzed partners' data on Azure Databricks with pySpark, Seaborn",
+        "Predictive Modeling: pySurvival and Lifelines for time series analysis, with 60 % + accuracy in predicting user churn and event timing"
       ]
     },
     {
