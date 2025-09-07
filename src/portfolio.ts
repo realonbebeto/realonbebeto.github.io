@@ -9,12 +9,12 @@ const homeInfo = {
   username: "Bebeto Nyamwamu",
   greeting: "Hello 👋🏿, I'm ",
   prefname: "Nyamwamu",
-  prefTitle: "Fullstack ML/Data Engineer",
+  prefTitle: "Software/Data Platform Engineer",
   subtitle: emoji(
-    "Fullstack ML/Data Engineer with a wealth of experience in building and deploying data science apps. I am agile in using the Python AI & Data Science library ecosystem for MLOps/DataOps"
+    "Software/Data Platform Engineer with experience building predictive systems, RESTful backend APIs, and scalable data pipelines in production."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1B46NPH6e8epBZpqJJr-vasp0Il4uhlyq/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1p7YjhzKqx8j44Vz02OrJ0RrHQHVG0B2c/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -32,7 +32,7 @@ const socialMediaInfo = {
 };
 
 const headLine = {
-  text: "Fullstack Machine Learning/Data Engineer | Python | DataOps | MLOps"
+  text: "Software/Data Platform Engineer"
 }
 
 // Skills Section
