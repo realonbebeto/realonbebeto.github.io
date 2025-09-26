@@ -14,7 +14,7 @@ const homeInfo = {
     "Software/Data Platform Engineer with experience building predictive systems, RESTful backend APIs, and scalable data pipelines in production."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1p7YjhzKqx8j44Vz02OrJ0RrHQHVG0B2c/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dqEArTzv0aZq8LtCBOhGOMaHN__DAwLN/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
